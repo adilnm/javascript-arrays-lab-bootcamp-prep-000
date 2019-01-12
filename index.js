@@ -7,3 +7,6 @@ function destructivelyAppendKitten(name){
 function destructivelyPrependKitten(name){
   kittens.pop(name)
 }
+function destructivelyPrependKitten(name){
+  kittens.pop(name)
+}
