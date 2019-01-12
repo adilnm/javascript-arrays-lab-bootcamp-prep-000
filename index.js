@@ -18,8 +18,7 @@ function appendKitten(name){
  return kittens.concat(name)
 }
 function prependKitten(name){
-  var newArr=kittens.push(name)
- return newArr
+ return [name].concat(kittens)
 }
 function removeLastKitten(){
  return kittens.slice(0,kittens.length-1)
