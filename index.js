@@ -20,8 +20,8 @@ function appendKitten(name){
 function prependKitten(name){
  return name.concat(kittens)
 }
-function prependKitten(name){
- return name.concat(kittens)
+function removeLastKitten(name){
+ return name.slice(0,kittens.lenngth-1)
 }
 function prependKitten(name){
  return name.concat(kittens)
